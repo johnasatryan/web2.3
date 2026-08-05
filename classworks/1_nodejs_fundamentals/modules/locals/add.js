@@ -1,2 +1,7 @@
-// A module is an encapsulated and reusable chunk of code that has its own context.
+console.log('hello from add.js');
 
+exports.add = (a, b) => a + b;
+
+exports.sub = (a, b) => a - b;
+
+exports.mul = (a, b) => a * b;
