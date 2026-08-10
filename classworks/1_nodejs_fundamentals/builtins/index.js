@@ -1,52 +1,48 @@
-// // // // // console.log(path.extname('file.txt'));
-// // // // // console.log(path.parse(__filename));
-// // // // // console.log(
-// // // // //   path.format({
-// // // // //     root: '/',
-// // // // //     dir: '/Users/jon/Workspace/web2.3/classworks/1_nodejs_fundamentals/builtins',
-// // // // //   }),
-// // // // // );
+// console.log(path.extname('file.txt'));
+// console.log(path.parse(__filename));
+// console.log(
+//   path.format({
+//     root: '/',
+//     dir: '/Users/jon/Workspace/web2.3/classworks/1_nodejs_fundamentals/builtins',
+//   }),
+// );
 
-// // // // // console.log(path.normalize('./file.txt'));
+// console.log(path.normalize('./file.txt'));
 
-// // // // // console.log(path.resolve('folder1', 'folder2', 'index.js'));
-// // // // console.log(path.join(__dirname, 'folder1', 'folder2', 'index.js'));
+// console.log(path.resolve('folder1', 'folder2', 'index.js'));
+// console.log(path.join(__dirname, 'folder1', 'folder2', 'index.js'));
+// const path = require('path');
+// const fs = require('node:fs');
 
-// // // const path = require('path');
+// fs.writeFileSync('file.txt', 'another text', {
+//   flag: 'a',
+// });
+// const res = fs.readFileSync('file.txt', 'utf-8');
 
-// // // const fs = require('node:fs');
+// console.log(res);
+// fs.readFile('file1.txt', (err, data) => {
+//   if (err) {
+//     console.log(err);
+//     return;
+//   }
+//   console.log(data.toString());
+// });
 
-// // // // fs.writeFileSync('file.txt', 'another text', {
-// // // //   flag: 'a',
-// // // // });
-// // // // const res = fs.readFileSync('file.txt', 'utf-8');
+// const EventEmitter = require('node:events');
 
-// // // // console.log(res);
+// const emitter = new EventEmitter();
 
-// // // fs.readFile('file1.txt', (err, data) => {
-// // //   if (err) {
-// // //     console.log(err);
-// // //     return;
-// // //   }
+// emitter.on('zangy_tal', () => {
+//   console.log('dzin dzin');
+// });
 
-// // //   console.log(data.toString());
-// // // });
+// emitter.on('zangy_tal', () => {
+//   console.log('heto');
+// });
 
-// // const EventEmitter = require('node:events');
+// emitter.emit('zangy_tal');
 
-// // const emitter = new EventEmitter();
-
-// // emitter.on('zangy_tal', () => {
-// //   console.log('dzin dzin');
-// // });
-
-// // emitter.on('zangy_tal', () => {
-// //   console.log('heto');
-// // });
-
-// // emitter.emit('zangy_tal');
-
-// // console.log(emitter.listeners('zangy_tal'));
+// console.log(emitter.listeners('zangy_tal'));
 
 // const net = require('node:net');
 
@@ -77,7 +73,7 @@
 
 // const server = http.createServer((req, res) => {
 //   if (req.method === 'GET') {
-//     res.end()
+//     res.end();
 //   }
 // });
 
@@ -91,4 +87,25 @@
 
 // console.log(hash.toJSON().data.toString());
 
+// const bf = Buffer.from('abc');
 
+// bf.write('hello world');
+
+// console.log(bf.toString());
+
+// const Shop = require('./event_custom');
+
+// const sh = new Shop();
+
+// sh.on('pizza', (arg) => {
+//   console.log('Pizza order');
+// });
+
+// sh.order('pizza');
+
+// sh.on('');
+// const http = require('node:http');
+
+// const server = http.createServer((req, res) => {
+//   req.on("simple")
+// })
