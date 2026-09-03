@@ -48,27 +48,32 @@ const path = require('node:path');
 
 app.use(express.json());
 
-function validate(req, res, next) {
+// function validate(req, res, next) {
+//   const body = req.body;
+
+//   if (!body.email || !body.password) {
+//     return res.status(400).json({ error: 'Something went wrong' });
+//   }
+
+//   req.user = body;
+
+//   next();
+// }
+// app.post('/login', validate, (req, res, next) => {
+//   const user = req.user;
+//   throw new Error('hello error');
+//   res.json({ id: 1, email: 'Bob@example.com' });
+// });
+
+// app.use((err, req, res) => {
+//   console.log(err.message);
+// });
+
+app.get('/', (req, res) => {
   const body = req.body;
-
-  if (!body.email || !body.password) {
-    return res.status(400).json({ error: 'Something went wrong' });
-  }
-
-  req.user = body;
-
-  next();
-}
-app.post('/login', validate, (req, res, next) => {
-  const user = req.user;
-  throw new Error('hello error');
-  res.json({ id: 1, email: 'Bob@example.com' });
+  console.log(body.name);
+  res.status(200);
 });
-
-app.use((err, req, res) => {
-  console.log(err.message);
-});
-
 app.listen(3001, () => {
   console.log('Server is runing on port:3001');
 });
