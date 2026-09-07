@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div style="display: flex; justify-content: center">
+        <label for="username">
+          Username:
+          <input name="username" id="username" type="text" />
+        </label>
+      </div>
+
+      <div style="display: flex; justify-content: center">
+        <label for="password">
+          Password:
+          <input name="password" id="password" type="password" minlength="6" />
+        </label>
+        <button id="btn" type="button">Sign in</button>
+      </div>
+    </form>
+    <script>
+      function moo() {
+        console.log('hello world');
+      }
+      const btn = document.getElementById('btn');
+
+      const username = document.getElementById('username');
+
+      btn.addEventListener('click', (e) => {
+        fetch('http://localhost:3001/login', {
+          method: 'POST',
+          headers: {
+            'Content-type': 'application/json',
+          },
+          body: JSON.stringify({ username: 'Bob', password: 'pass' }),
+        })
+          .then((res) => {
+            return res.json();
+          })
+          .then((data) => {
+            localStorage.setItem('token', data.token);
+
+            console.log(localStorage.getItem('token'));
+          });
+      });
+    </script>
+  </body>
+</html>
