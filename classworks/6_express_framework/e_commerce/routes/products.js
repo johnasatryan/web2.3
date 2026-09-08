@@ -1,0 +1,52 @@
+const express = require('express');
+const { readData, writeData } = require('../utils/fileDB');
+const { authenticate, authorize } = require('../middleware/auth');
+const router = express.Router();
+
+// GET /products?category=electronics&sort=price
+router.get('/', async (req, res) => {
+  let products = await readData('products.json');
+
+  const { category, sort } = req.query;
+
+  if (category) products = products.filter((p) => p.category === category);
+  if (sort === 'price') products = products.sort((a, b) => a.price - b.price);
+
+  res.json(products);
+});
+
+router.get('/:id', async (req, res) => {
+  const products = await readData('productss.json');
+
+  const productId = req.params.id;
+
+  const product = products.find((p) => p.id === productId);
+  if (!product) return res.status(404).json({ error: 'Product not found' });
+
+  res.json(product);
+});
+
+router.post('/', authenticate, authorize('admin'), async (req, res) => {
+  const { name, price, category, stock } = req.body;
+
+  if (!name || !price) {
+    return res.status(400).json({ error: 'Name and price are required' });
+  }
+
+  const products = await readData('products.json');
+
+  const newProduct = {
+    id: products.length ? products.length + 1 : 1,
+    name,
+    price,
+    category: category || 'other',
+    stock: stock ?? 0,
+  };
+
+  products.push(newProduct);
+  writeData('products.json', products);
+
+  res.status(201).json(newProduct);
+});
+
+module.exports = router;
