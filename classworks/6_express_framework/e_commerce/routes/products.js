@@ -49,4 +49,26 @@ router.post('/', authenticate, authorize('admin'), async (req, res) => {
   res.status(201).json(newProduct);
 });
 
+router.put('/:id', authenticate, authorize('admin'), async (req, res) => {
+  const products = await readData('products.json');
+  const index = products.findIndex((p) => p.id === Number(req.params.id));
+  if (index === -1) return res.status(404).json({ error: 'Product not found' });
+
+  products[index] = { ...products[index], ...req.body, id: products[index].id };
+  await writeData('products.json', products);
+
+  res.json(products[index]);
+});
+
+router.delete('/:id', authenticate, authorize('admin'), async (req, res) => {
+  let products = await readData('products.json');
+  const exists = products.some((p) => p.id === Number(req.params.id));
+  if (!exists) return res.status(404).json({ error: 'Product not found' });
+
+  products = products.filter((p) => p.id !== Number(req.params.id));
+  await writeData('products.json', products);
+
+  res.status(204).end();
+});
+
 module.exports = router;

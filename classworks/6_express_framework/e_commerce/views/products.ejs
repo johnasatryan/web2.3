@@ -1,0 +1,14 @@
+<%- include('header', { title: 'Products' }) %>
+
+<main>
+  <h2>Products</h2>
+  <ul>
+    <% products.forEach(product => { %>
+      <li>
+        <%= product.name %> - $<%= product.price %> (<%= product.category %>) - Stock: <%= product.stock %>
+      </li>
+    <% }) %>
+  </ul>
+</main>
+
+<%- include('footer') %>

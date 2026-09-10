@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "name": "iphone",
-    "price": "1000",
+    "name": "Wireless Mouse",
+    "price": 19.99,
     "category": "electronics",
-    "stock": "43"
+    "stock": 36
   },
   {
     "id": 2,
-    "name": "laptop",
-    "price": "500",
+    "name": "Keyboard",
+    "price": 79.99,
     "category": "electronics",
-    "stock": "23"
+    "stock": 12
   },
   {
     "id": 3,
-    "name": "bananana",
-    "price": "1",
-    "category": "food",
-    "stock": "20"
+    "name": "Running Shoes",
+    "price": 59.99,
+    "category": "shoes",
+    "stock": 14
   }
 ]

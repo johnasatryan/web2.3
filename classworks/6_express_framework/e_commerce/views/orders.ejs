@@ -1,0 +1,19 @@
+<%- include('header', { title: 'Orders' }) %>
+
+<main>
+  <h2>Orders</h2>
+  <ul>
+    <% orders.forEach(order => { %>
+      <li>
+        Order #<%= order.id %> - Total: $<%= order.total %>
+        <ul>
+          <% order.items.forEach(item => { %>
+            <li><%= item.name %> x<%= item.quantity %> - $<%= item.price %></li>
+          <% }) %>
+        </ul>
+      </li>
+    <% }) %>
+  </ul>
+</main>
+
+<%- include('footer') %>

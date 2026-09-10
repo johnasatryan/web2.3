@@ -9,7 +9,7 @@
     "id": 2,
     "username": "james",
     "passwordHash": "$2b$10$ozcSiQVRMdhXCn3M.nNYZOu3rV0FgzhmBf2.r5TIgll2bZ.KzyEUK",
-    "role": "customer"
+    "role": "admin"
   },
   {
     "id": 3,
