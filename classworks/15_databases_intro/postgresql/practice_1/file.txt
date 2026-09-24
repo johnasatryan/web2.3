@@ -1,0 +1,371 @@
+ category_id | category_name | product_id |    product_name     | price  | category_id | stock_quantity | order_id | product_id | quantity | order_date 
+-------------+---------------+------------+---------------------+--------+-------------+----------------+----------+------------+----------+------------
+           1 | Electronics   |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          3 | Standing Desk       | 249.00 |           2 |             30 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          3 | Standing Desk       | 249.00 |           2 |             30 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          3 | Standing Desk       | 249.00 |           2 |             30 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          3 | Standing Desk       | 249.00 |           2 |             30 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          3 | Standing Desk       | 249.00 |           2 |             30 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          3 | Standing Desk       | 249.00 |           2 |             30 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          4 | Office Chair        | 129.50 |           2 |             45 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          4 | Office Chair        | 129.50 |           2 |             45 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          4 | Office Chair        | 129.50 |           2 |             45 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          4 | Office Chair        | 129.50 |           2 |             45 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          4 | Office Chair        | 129.50 |           2 |             45 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          4 | Office Chair        | 129.50 |           2 |             45 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          5 | Notebook Pack       |   4.99 |           3 |            300 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          5 | Notebook Pack       |   4.99 |           3 |            300 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          5 | Notebook Pack       |   4.99 |           3 |            300 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          5 | Notebook Pack       |   4.99 |           3 |            300 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          5 | Notebook Pack       |   4.99 |           3 |            300 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          5 | Notebook Pack       |   4.99 |           3 |            300 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |          9 | Building Blocks     |  24.99 |           5 |             60 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |          9 | Building Blocks     |  24.99 |           5 |             60 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |          9 | Building Blocks     |  24.99 |           5 |             60 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |          9 | Building Blocks     |  24.99 |           5 |             60 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |          9 | Building Blocks     |  24.99 |           5 |             60 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |          9 | Building Blocks     |  24.99 |           5 |             60 |        6 |          5 |        5 | 2026-02-01
+           1 | Electronics   |         10 | Desk Lamp           |  15.50 |             |              0 |        1 |          1 |        1 | 2026-01-12
+           1 | Electronics   |         10 | Desk Lamp           |  15.50 |             |              0 |        2 |          1 |        2 | 2026-01-05
+           1 | Electronics   |         10 | Desk Lamp           |  15.50 |             |              0 |        3 |          2 |        1 | 2026-01-12
+           1 | Electronics   |         10 | Desk Lamp           |  15.50 |             |              0 |        4 |          3 |        1 | 2026-01-20
+           1 | Electronics   |         10 | Desk Lamp           |  15.50 |             |              0 |        5 |          4 |        2 | 2026-01-22
+           1 | Electronics   |         10 | Desk Lamp           |  15.50 |             |              0 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          3 | Standing Desk       | 249.00 |           2 |             30 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          3 | Standing Desk       | 249.00 |           2 |             30 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          3 | Standing Desk       | 249.00 |           2 |             30 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          3 | Standing Desk       | 249.00 |           2 |             30 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          3 | Standing Desk       | 249.00 |           2 |             30 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          3 | Standing Desk       | 249.00 |           2 |             30 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          4 | Office Chair        | 129.50 |           2 |             45 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          4 | Office Chair        | 129.50 |           2 |             45 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          4 | Office Chair        | 129.50 |           2 |             45 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          4 | Office Chair        | 129.50 |           2 |             45 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          4 | Office Chair        | 129.50 |           2 |             45 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          4 | Office Chair        | 129.50 |           2 |             45 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          5 | Notebook Pack       |   4.99 |           3 |            300 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          5 | Notebook Pack       |   4.99 |           3 |            300 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          5 | Notebook Pack       |   4.99 |           3 |            300 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          5 | Notebook Pack       |   4.99 |           3 |            300 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          5 | Notebook Pack       |   4.99 |           3 |            300 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          5 | Notebook Pack       |   4.99 |           3 |            300 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |          9 | Building Blocks     |  24.99 |           5 |             60 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |          9 | Building Blocks     |  24.99 |           5 |             60 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |          9 | Building Blocks     |  24.99 |           5 |             60 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |          9 | Building Blocks     |  24.99 |           5 |             60 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |          9 | Building Blocks     |  24.99 |           5 |             60 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |          9 | Building Blocks     |  24.99 |           5 |             60 |        6 |          5 |        5 | 2026-02-01
+           2 | Furniture     |         10 | Desk Lamp           |  15.50 |             |              0 |        1 |          1 |        1 | 2026-01-12
+           2 | Furniture     |         10 | Desk Lamp           |  15.50 |             |              0 |        2 |          1 |        2 | 2026-01-05
+           2 | Furniture     |         10 | Desk Lamp           |  15.50 |             |              0 |        3 |          2 |        1 | 2026-01-12
+           2 | Furniture     |         10 | Desk Lamp           |  15.50 |             |              0 |        4 |          3 |        1 | 2026-01-20
+           2 | Furniture     |         10 | Desk Lamp           |  15.50 |             |              0 |        5 |          4 |        2 | 2026-01-22
+           2 | Furniture     |         10 | Desk Lamp           |  15.50 |             |              0 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          3 | Standing Desk       | 249.00 |           2 |             30 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          3 | Standing Desk       | 249.00 |           2 |             30 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          3 | Standing Desk       | 249.00 |           2 |             30 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          3 | Standing Desk       | 249.00 |           2 |             30 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          3 | Standing Desk       | 249.00 |           2 |             30 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          3 | Standing Desk       | 249.00 |           2 |             30 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          4 | Office Chair        | 129.50 |           2 |             45 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          4 | Office Chair        | 129.50 |           2 |             45 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          4 | Office Chair        | 129.50 |           2 |             45 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          4 | Office Chair        | 129.50 |           2 |             45 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          4 | Office Chair        | 129.50 |           2 |             45 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          4 | Office Chair        | 129.50 |           2 |             45 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          5 | Notebook Pack       |   4.99 |           3 |            300 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          5 | Notebook Pack       |   4.99 |           3 |            300 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          5 | Notebook Pack       |   4.99 |           3 |            300 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          5 | Notebook Pack       |   4.99 |           3 |            300 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          5 | Notebook Pack       |   4.99 |           3 |            300 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          5 | Notebook Pack       |   4.99 |           3 |            300 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |          9 | Building Blocks     |  24.99 |           5 |             60 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |          9 | Building Blocks     |  24.99 |           5 |             60 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |          9 | Building Blocks     |  24.99 |           5 |             60 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |          9 | Building Blocks     |  24.99 |           5 |             60 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |          9 | Building Blocks     |  24.99 |           5 |             60 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |          9 | Building Blocks     |  24.99 |           5 |             60 |        6 |          5 |        5 | 2026-02-01
+           3 | Stationery    |         10 | Desk Lamp           |  15.50 |             |              0 |        1 |          1 |        1 | 2026-01-12
+           3 | Stationery    |         10 | Desk Lamp           |  15.50 |             |              0 |        2 |          1 |        2 | 2026-01-05
+           3 | Stationery    |         10 | Desk Lamp           |  15.50 |             |              0 |        3 |          2 |        1 | 2026-01-12
+           3 | Stationery    |         10 | Desk Lamp           |  15.50 |             |              0 |        4 |          3 |        1 | 2026-01-20
+           3 | Stationery    |         10 | Desk Lamp           |  15.50 |             |              0 |        5 |          4 |        2 | 2026-01-22
+           3 | Stationery    |         10 | Desk Lamp           |  15.50 |             |              0 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          3 | Standing Desk       | 249.00 |           2 |             30 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          3 | Standing Desk       | 249.00 |           2 |             30 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          3 | Standing Desk       | 249.00 |           2 |             30 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          3 | Standing Desk       | 249.00 |           2 |             30 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          3 | Standing Desk       | 249.00 |           2 |             30 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          3 | Standing Desk       | 249.00 |           2 |             30 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          4 | Office Chair        | 129.50 |           2 |             45 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          4 | Office Chair        | 129.50 |           2 |             45 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          4 | Office Chair        | 129.50 |           2 |             45 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          4 | Office Chair        | 129.50 |           2 |             45 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          4 | Office Chair        | 129.50 |           2 |             45 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          4 | Office Chair        | 129.50 |           2 |             45 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          5 | Notebook Pack       |   4.99 |           3 |            300 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          5 | Notebook Pack       |   4.99 |           3 |            300 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          5 | Notebook Pack       |   4.99 |           3 |            300 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          5 | Notebook Pack       |   4.99 |           3 |            300 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          5 | Notebook Pack       |   4.99 |           3 |            300 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          5 | Notebook Pack       |   4.99 |           3 |            300 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |          9 | Building Blocks     |  24.99 |           5 |             60 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |          9 | Building Blocks     |  24.99 |           5 |             60 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |          9 | Building Blocks     |  24.99 |           5 |             60 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |          9 | Building Blocks     |  24.99 |           5 |             60 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |          9 | Building Blocks     |  24.99 |           5 |             60 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |          9 | Building Blocks     |  24.99 |           5 |             60 |        6 |          5 |        5 | 2026-02-01
+           4 | Books         |         10 | Desk Lamp           |  15.50 |             |              0 |        1 |          1 |        1 | 2026-01-12
+           4 | Books         |         10 | Desk Lamp           |  15.50 |             |              0 |        2 |          1 |        2 | 2026-01-05
+           4 | Books         |         10 | Desk Lamp           |  15.50 |             |              0 |        3 |          2 |        1 | 2026-01-12
+           4 | Books         |         10 | Desk Lamp           |  15.50 |             |              0 |        4 |          3 |        1 | 2026-01-20
+           4 | Books         |         10 | Desk Lamp           |  15.50 |             |              0 |        5 |          4 |        2 | 2026-01-22
+           4 | Books         |         10 | Desk Lamp           |  15.50 |             |              0 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          3 | Standing Desk       | 249.00 |           2 |             30 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          3 | Standing Desk       | 249.00 |           2 |             30 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          3 | Standing Desk       | 249.00 |           2 |             30 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          3 | Standing Desk       | 249.00 |           2 |             30 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          3 | Standing Desk       | 249.00 |           2 |             30 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          3 | Standing Desk       | 249.00 |           2 |             30 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          4 | Office Chair        | 129.50 |           2 |             45 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          4 | Office Chair        | 129.50 |           2 |             45 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          4 | Office Chair        | 129.50 |           2 |             45 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          4 | Office Chair        | 129.50 |           2 |             45 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          4 | Office Chair        | 129.50 |           2 |             45 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          4 | Office Chair        | 129.50 |           2 |             45 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |          9 | Building Blocks     |  24.99 |           5 |             60 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |          9 | Building Blocks     |  24.99 |           5 |             60 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |          9 | Building Blocks     |  24.99 |           5 |             60 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |          9 | Building Blocks     |  24.99 |           5 |             60 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |          9 | Building Blocks     |  24.99 |           5 |             60 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |          9 | Building Blocks     |  24.99 |           5 |             60 |        6 |          5 |        5 | 2026-02-01
+           5 | Toys          |         10 | Desk Lamp           |  15.50 |             |              0 |        1 |          1 |        1 | 2026-01-12
+           5 | Toys          |         10 | Desk Lamp           |  15.50 |             |              0 |        2 |          1 |        2 | 2026-01-05
+           5 | Toys          |         10 | Desk Lamp           |  15.50 |             |              0 |        3 |          2 |        1 | 2026-01-12
+           5 | Toys          |         10 | Desk Lamp           |  15.50 |             |              0 |        4 |          3 |        1 | 2026-01-20
+           5 | Toys          |         10 | Desk Lamp           |  15.50 |             |              0 |        5 |          4 |        2 | 2026-01-22
+           5 | Toys          |         10 | Desk Lamp           |  15.50 |             |              0 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          1 | Wireless Mouse      |  19.99 |           1 |            150 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          2 | Mechanical Keyboard |  49.99 |           1 |             80 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          3 | Standing Desk       | 249.00 |           2 |             30 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          3 | Standing Desk       | 249.00 |           2 |             30 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          3 | Standing Desk       | 249.00 |           2 |             30 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          3 | Standing Desk       | 249.00 |           2 |             30 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          3 | Standing Desk       | 249.00 |           2 |             30 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          3 | Standing Desk       | 249.00 |           2 |             30 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          4 | Office Chair        | 129.50 |           2 |             45 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          4 | Office Chair        | 129.50 |           2 |             45 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          4 | Office Chair        | 129.50 |           2 |             45 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          4 | Office Chair        | 129.50 |           2 |             45 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          4 | Office Chair        | 129.50 |           2 |             45 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          4 | Office Chair        | 129.50 |           2 |             45 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          5 | Notebook Pack       |   4.99 |           3 |            300 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          6 | Gel Pens (12-pack)  |   6.50 |           3 |            220 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          7 | PostgreSQL Handbook |  39.00 |           4 |             60 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          8 | SQL Cookbook        |  34.00 |           4 |             40 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |          9 | Building Blocks     |  24.99 |           5 |             60 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |          9 | Building Blocks     |  24.99 |           5 |             60 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |          9 | Building Blocks     |  24.99 |           5 |             60 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |          9 | Building Blocks     |  24.99 |           5 |             60 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |          9 | Building Blocks     |  24.99 |           5 |             60 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |          9 | Building Blocks     |  24.99 |           5 |             60 |        6 |          5 |        5 | 2026-02-01
+           6 | Food          |         10 | Desk Lamp           |  15.50 |             |              0 |        1 |          1 |        1 | 2026-01-12
+           6 | Food          |         10 | Desk Lamp           |  15.50 |             |              0 |        2 |          1 |        2 | 2026-01-05
+           6 | Food          |         10 | Desk Lamp           |  15.50 |             |              0 |        3 |          2 |        1 | 2026-01-12
+           6 | Food          |         10 | Desk Lamp           |  15.50 |             |              0 |        4 |          3 |        1 | 2026-01-20
+           6 | Food          |         10 | Desk Lamp           |  15.50 |             |              0 |        5 |          4 |        2 | 2026-01-22
+           6 | Food          |         10 | Desk Lamp           |  15.50 |             |              0 |        6 |          5 |        5 | 2026-02-01
+(360 rows)
+
+ category_name |  sum   
+---------------+--------
+ Furniture     | 508.00
+ Electronics   | 109.96
+ Stationery    |  24.95
+(3 rows)
+

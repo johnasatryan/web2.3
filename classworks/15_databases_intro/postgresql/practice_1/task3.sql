@@ -55,6 +55,18 @@
 -- ON p.category_id = c.category_id;
 
 
-ALTER TABLE products ADD CONSTRAINT
-products_category_id_fkey FOREIGN KEY(category_id)
-REFERENCES categories(category_id);
+-- ALTER TABLE products ADD CONSTRAINT
+-- products_category_id_fkey FOREIGN KEY(category_id)
+-- REFERENCES categories(category_id);
+
+
+INSERT INTO orders (product_id, quantity, order_date)
+SELECT product_id, s.quantity, s.order_date FROM (
+  VALUES
+  ('Wireless Mouse', 2, DATE '2026-01-05'),
+('Wireless Mouse', 1, DATE '2026-01-12'),
+('Mechanical Keyboard', 1, DATE'2026-01-12'),
+('Standing Desk', 1, DATE'2026-01-20'),
+('Office Chair', 2, DATE '2026-01-22'),
+('Notebook Pack', 5, DATE '2026-02-01')) AS s(product_name, quantity, order_date) 
+JOIN products ON products.product_name = s.product_name
