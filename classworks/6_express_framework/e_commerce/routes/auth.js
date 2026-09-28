@@ -1,38 +1,18 @@
 const express = require('express');
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const { readData, writeData } = require('../utils/fileDB');
+const authService = require('../services/auth.service');
 
 const router = express.Router();
 
 const SECRET = process.env.SECRET || 'something';
 
-router.post('/register', async (req, res) => {
+router.post('/register', async (req, res, next) => {
   const { username, password } = req.body;
-  if (!username || !password) {
-    return res
-      .status(400)
-      .json({ error: 'username and password are required' });
+
+  try {
+    res.status(201).json(await authService.register(username, password));
+  } catch (err) {
+    next(err);
   }
-
-  const users = await readData('users.json');
-  if (users.find((u) => u.username === username)) {
-    return res.status(409).json({ error: 'Username already exists' });
-  }
-
-  const newUser = {
-    id: users.length ? users.length + 1 : 1,
-    username,
-    passwordHash: await bcrypt.hash(password, 10),
-    role: 'customer',
-  };
-
-  users.push(newUser);
-  await writeData('users.json', users);
-
-  res
-    .status(201)
-    .json({ id: newUser.id, username: newUser.username, role: newUser.role });
 });
 
 router.post('/login', async (req, res) => {

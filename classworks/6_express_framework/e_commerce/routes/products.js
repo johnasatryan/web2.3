@@ -1,18 +1,18 @@
 const express = require('express');
 const { readData, writeData } = require('../utils/fileDB');
 const { authenticate, authorize } = require('../middleware/auth');
+const productService = require('../services/products.service');
 const router = express.Router();
 
 // GET /products?category=electronics&sort=price
-router.get('/', async (req, res) => {
-  let products = await readData('products.json');
-
-  const { category, sort } = req.query;
-
-  if (category) products = products.filter((p) => p.category === category);
-  if (sort === 'price') products = products.sort((a, b) => a.price - b.price);
-
-  res.json(products);
+router.get('/', async (req, res, next) => {
+  try {
+    {
+      res.json(await productService.getAllProducts(req.query));
+    }
+  } catch (err) {
+    next(err);
+  }
 });
 
 router.get('/:id', async (req, res) => {
