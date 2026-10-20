@@ -1,0 +1,13 @@
+db.createCollection('students', {
+  validator: {
+    $jsonSchema: {
+      bsonType: 'object',
+      required: ['name', 'email'],
+      properties: {
+        name: { bsonType: 'string' },
+        email: { bsonType: 'string', pattern: '^.+@.+\\..+$' },
+        country: { bsonType: 'string' },
+      },
+    },
+  },
+});

@@ -1,0 +1,40 @@
+// read, readWrite, dbAdmin, userAdmin, dbOwner -> readWrite + dbAdmin + userAdmin
+// readWriteAnyDatabase, userAdminAnyDatabase
+// root
+
+const db = db.getSiblingDB('platform');
+
+db.createCollection('courses', {
+  validator: {
+    $jsonSchema: {
+      bsonType: 'object',
+      required: ['title', 'instructorId', 'price', 'published', 'lessons'],
+      additionalProperties: false,
+      properties: {
+        _id: { bsonType: 'objectId' },
+        title: { bsonType: 'string', minLength: 3, maxLength: 120 },
+        instructorId: {
+          bsonType: 'objectId',
+          description: 'references instructors._id',
+        },
+        price: { bsonType: 'number', minimum: 0 },
+        published: { bsonType: 'bool' },
+        status: { bsonType: 'bool' },
+        lessons: {
+          bsonType: 'array',
+          items: {
+            bsonType: 'object',
+            required: ['title', 'minutes'],
+            additionalProperties: false,
+            properties: {
+              title: { bsonType: 'string' },
+              minutes: { bsonType: 'number', maximum: 120 },
+            },
+          },
+        },
+      },
+    },
+  },
+  validationLevel: 'strict',
+  validationAction: 'error',
+});
